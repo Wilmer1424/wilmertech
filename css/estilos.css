@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000;
+    margin: auto;
+    overflow:hidden;
+}
+
+.titulo{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #00B4DB;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(195, 100%, 35%, 0.589), hsla(191, 100%, 43%, 0.527)), url(../54.png);   
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(195, 100%, 35%, 0.589), hsla(191, 100%, 43%, 0.527)), url(../54.png); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+ 
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    font-weight: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.contenido-textos p{
+    padding: 5px 0px 5px 5px;
+    font-weight: 100;
+    text-align: center;
+}
+
